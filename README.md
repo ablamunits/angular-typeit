@@ -4,16 +4,16 @@ A simple Angular JS wrapper for [TypeIt](https://github.com/alexmacarthur/typeit
 
 # Install
 
-1. Make sure you have jQuery and [TypeIt](https://github.com/alexmacarthur/typeit) included on your page
+1) Make sure you have jQuery and [TypeIt](https://github.com/alexmacarthur/typeit) included on your page
 ```
 <script src="./somewhere/jquery-2.1.4.min.js"></script>
 <script src="./somewhere/typeit.js"></script>
 ```
-2. Include `ng-typeit.js` on your page
+2) Include `ng-typeit.js` on your page
 ```
 <script src="./somewhere/ng-typeit.js"></script>
 ```
-3. Add `ngTypeit` as a dependency to your project
+3) Add `ngTypeit` as a dependency to your project
 ```
 angular.module('myAmazingApp', ['ngTypeit'])
 ```
