@@ -10,7 +10,9 @@
 				typeitSpeed: '=',
 				typeitLifeLike: '=',
 				typeitCursor: '=',
-				typeitCursorSpeed: '='
+				typeitCursorSpeed: '=',
+				typeitStartDelay: '=',
+				typeitBreakDelay: '='
 			},
 			controller: function ($scope, $element, $attrs) {
 				var typeItElement = $($element);
@@ -24,7 +26,9 @@
 						speed: $scope.typeitSpeed,
 						lifeLike: $scope.typeitLifeLike,
 						cursor: $scope.typeitCursor,
-						cursorSpeed: $scope.typeitCursorSpeed
+						cursorSpeed: $scope.typeitCursorSpeed,
+						startDelay: $scope.typeitStartDelay,
+						breakDelay: $scope.typeitBreakDelay
 					});
 				} catch (e) {
 					console.error('OH NO! ngTypeit requires typeit.js on your page - do you have it loaded?');
