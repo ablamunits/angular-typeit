@@ -4,7 +4,7 @@
   "authors": [
     "Boris Ablamunits <borisa@wix.com>"
   ],
-  "description": "A very simple Angular.js wrapper for Typeit.js",
+  "description": "A very simple Angular.js wrapper for TypeIt",
   "license": "MIT",
   "ignore": [
     "**/.*",

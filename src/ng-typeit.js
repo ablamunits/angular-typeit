@@ -9,7 +9,7 @@
 				typeitSpeed: '=',
 			},
 			controller: function ($scope, $element, $attrs) {
-				var typeItElement: any = $($element);
+				var typeItElement = $($element);
 
 				try {
 					typeItElement.typeIt({

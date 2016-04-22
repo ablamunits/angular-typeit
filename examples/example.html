@@ -1,0 +1,21 @@
+<html ng-app="typeitExample">
+	<head>
+		<title>ng-TypeIt example</title>
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.typeit/3.0.1/typeit.min.js"></script>
+		<script src="../dist/ng-typeit.js"></script>
+		<script>
+		var typeitExample = angular.module('typeitExample', ['ngTypeit']).controller('exampleCtrl', function($scope) {
+			$scope.ti = {
+				words:['Hello', 'World!', 'Typing is fun']
+			}
+		});
+		</script>
+	</head>
+	<body ng-controller="exampleCtrl">
+		<div class="content">
+			<p ng-typeit typeit-strings="ti.words" typeit-loop="true"></p>
+		</div>
+	</body>
+</html>
