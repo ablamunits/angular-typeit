@@ -3,7 +3,7 @@
 		return {
 			restrict: 'A',
 			scope: {
-				typeit: '=',
+				typeitStrings: '=ngTypeit',
 				typeitLoop: '=',
 				typeitLoopDelay: '=',
 				typeitBreakLines: '=',
@@ -19,7 +19,7 @@
 
 				try {
 					typeItElement.typeIt({
-						strings: $scope.typeit,
+						strings: $scope.typeitStrings,
 						loop: $scope.typeitLoop,
 						loopDelay: $scope.typeitLoopDelay,
 						breakLines: $scope.typeitBreakLines,
