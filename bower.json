@@ -1,0 +1,16 @@
+{
+  "name": "ng-typeit",
+  "version": "0.0.0",
+  "authors": [
+    "Boris Ablamunits <borisa@wix.com>"
+  ],
+  "description": "A very simple Angular.js wrapper for Typeit.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
