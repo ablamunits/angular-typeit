@@ -1,6 +1,7 @@
 # ng-typeit
 
 A simple Angular JS wrapper for [TypeIt](https://github.com/alexmacarthur/typeit), a jQuery plugin by alexmacarthur.
+Check out the demo [here](https://macarthur.me/typeit/).
 
 # Install
 
