@@ -1,12 +1,12 @@
 <html ng-app="typeitExample">
 	<head>
-		<title>ng-TypeIt example</title>
+		<title>angular-typeit example</title>
 		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.typeit/3.0.1/typeit.min.js"></script>
-		<script src="../dist/ng-typeit.js"></script>
+		<script src="../dist/angular-typeit.js"></script>
 		<script>
-		var typeitExample = angular.module('typeitExample', ['ngTypeit']).controller('exampleCtrl', function($scope) {
+		var typeitExample = angular.module('typeitExample', ['ab.Typeit']).controller('exampleCtrl', function($scope) {
 			$scope.ti = {
 				words:['Hello', 'World!', 'Typing is fun']
 			}
@@ -15,7 +15,7 @@
 	</head>
 	<body ng-controller="exampleCtrl">
 		<div class="content">
-			<p ng-typeit="ti.words" typeit-loop="true" typeit-break-lines="false" typeit-loop-delay="1000" typeit-cursor="false"></p>
+			<p ab-typeit="ti.words" typeit-loop="true" typeit-break-lines="false" typeit-loop-delay="1000" typeit-cursor="false"></p>
 		</div>
 	</body>
 </html>

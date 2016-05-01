@@ -1,9 +1,9 @@
 (function () {
-	angular.module('ngTypeit', []).directive('ngTypeit', function() {
+	angular.module('ab.Typeit', []).directive('abTypeit', function() {
 		return {
 			restrict: 'A',
 			scope: {
-				typeitStrings: '=ngTypeit',
+				typeitStrings: '=abTypeit',
 				typeitLoop: '=',
 				typeitLoopDelay: '=',
 				typeitBreakLines: '=',
@@ -31,7 +31,7 @@
 						breakDelay: $scope.typeitBreakDelay
 					});
 				} catch (e) {
-					console.error('OH NO! ngTypeit requires typeit.js on your page - do you have it loaded?');
+					console.error('OH NO! angular-typeit requires typeit.js on your page - do you have it loaded?');
 				}
 			}
 		};
