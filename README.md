@@ -1,4 +1,4 @@
-# ng-typeit
+# angular-typeit
 
 A simple Angular JS wrapper for [TypeIt](https://github.com/alexmacarthur/typeit), a jQuery plugin by alexmacarthur.
 Check out the demo [here](https://macarthur.me/typeit/).
@@ -10,27 +10,27 @@ Check out the demo [here](https://macarthur.me/typeit/).
 <script src="./somewhere/jquery-2.1.4.min.js"></script>
 <script src="./somewhere/typeit.js"></script>
 ```
-2) Include `ng-typeit.js` on your page
+2) Include `angular-typeit.js` on your page
 ```
-<script src="./somewhere/ng-typeit.js"></script>
+<script src="./somewhere/angular-typeit.js"></script>
 ```
-3) Add `ngTypeit` as a dependency to your project
+3) Add `ab.Typeit` as a dependency to your project
 ```
-angular.module('myAmazingApp', ['ngTypeit'])
+angular.module('myAmazingApp', ['ab.Typeit'])
 ```
 
 # Usage
-For basic usage, simply use `ng-typeit` and pass a string or an array of strings from your controller:
+For basic usage, simply use `ab-typeit` and pass a string or an array of strings from your controller:
 ```
-<p ng-typeit="ctrl.myStrings"></p>
+<p ab-typeit="ctrl.myStrings"></p>
 ```
 For additional options, use any of the attributes described below.
 
 # Options as attributes
 
-ngTypeit currently supports the default options available for TypeIt, which can be set as attributes on the element:
+angular-typeit currently supports the default options available for TypeIt, which can be set as attributes on the element:
 ```
-<p ng-typeit="ctrl.myStrings" typeit-break-lines="false" typeit-loop="true"></p>
+<p ab-typeit="ctrl.myStrings" typeit-break-lines="false" typeit-loop="true"></p>
 ```
 
 List of supported attributes:
