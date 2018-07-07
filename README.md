@@ -45,6 +45,3 @@ List of supported attributes:
 - `typeit-break-delay`
 
 The full description and default values can be found on the [TypeIt plugin page](https://github.com/alexmacarthur/typeit).
-
---
-This project is currently a work in progress and any contributions are welcome. Bower component and nicer examples coming soon.
